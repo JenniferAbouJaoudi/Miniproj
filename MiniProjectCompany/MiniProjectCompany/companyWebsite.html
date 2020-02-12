@@ -26,6 +26,7 @@
             font: 400 15px Lato, sans-serif;
             line-height: 1.8;
             color: #818181;
+			padding:3%;
         }
 
         h2 {
@@ -33,7 +34,7 @@
             text-transform: uppercase;
             color: #303030;
             font-weight: 600;
-            margin-bottom: 30px;
+         
         }
 
         h4 {
@@ -41,7 +42,7 @@
             line-height: 1.375em;
             color: #303030;
             font-weight: 400;
-            margin-bottom: 30px;
+            
         }
 
         .jumbotron {
@@ -74,14 +75,7 @@
             border: none;
             border-radius: 0;
         }
-        
-        img {
 
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-
-        }
         .thumbnail img {
             width: 100%;
             height: 100%;
@@ -282,21 +276,18 @@
     <div><br><br></div>
 
     <!-- Container (About Section) -->
-    <div id="Problem" class="container-fluid">
+    <div id="Problem" class="">
         <div class="row">
             <div class="col-sm-8">
               <h1 style="color:black;">DO YOU KNOW ?</h1>
-                <h2 style="color:black;"> Your peronal data is worth <span style="color:green;font-weight:bold;font-size:40px;">$$ </span></h2>
+                <h3 style="color:black;"> Your personal data is worth <span style="color:green;font-weight:bold;font-size:40px;">$$ </span></h3>
                 <p>People shares everyday personal data without even realizing.
                     While using GPS location, fitness application, music application or any other application through
-                    your device, you are sharing your personal information with the application itself.<br>Many companies are willing to buy big amount of personal data for their benefit.<br>In this application, we will analysis a case how personal data can be used.</p><br>
+                    your device, you are sharing your personal information with the application itself.<br>Many companies are willing to buy big amount of personal data for their benefit.<br>In this application, we will analysis a case how personal data can be used.</p>
 
-                <h2>Startup to open a restaurant business</h2><br>
-                <p>Nowadays, we need to take into consideration many different aspects to start a restaurant business.
-                </p>
-                <p>In the restaurant field, it is key to understand the needs of the customer in order to make him not
-                    only try out your restaurant but have him as repeated customer. Customers have different taste,
-                    needs and values when shopping for a meal. </p>
+                <h4 style="color:black;">Startup to open a restaurant business</h4>
+                <p>Nowadays, we need to take into consideration many different aspects to start a restaurant business.<br>In the restaurant field, it is key to understand the needs of the customer in order to make him not
+                    only try out your restaurant but have him as repeated customer. Customers have different taste,needs and values when shopping for a meal. </p>
                 <p>In order to help the owner of the restaurant keep his business healthy and up to date, we decided to
                     create this application to let him analyze his market in order to reach potential and satisfy his
                     customers and best. </p>
@@ -308,29 +299,9 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-grey">
-        <div class="row">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-globe logo slideanim"></span>
-            </div>
-            <div class="col-sm-8">
-                <h2>Our Values</h2><br>
-                <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-                <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.</p>
-            </div>
-        </div>
-    </div>
-
     <!-- Container (Services Section) -->
-    <div id="Personas" class="container-fluid text-left">
-        <h2>Analyze different user types</h2>
+    <div id="Personas" class="bg-grey">
+        <h3 style="color:black;">Analyze different user types</h3>
         <br>
         <p>Customers have several needs when shopping for a meal, some look for pricing, some for quantities and others
             for qualities. It is important to analyze your customers needs in order to make your sell, a recursive sell.
@@ -351,15 +322,15 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="C:\Users\julie\Downloads\personasFat.png" alt="Los Angeles" style="width:100%;">
+                        <img src="personasFat.png" alt="Los Angeles" style="width:100%;">
                     </div>
 
                     <div class="item">
-                        <img src="C:\Users\julie\OneDrive\Documents\rebeccaPersona.PNG" alt="Los Angeles" style="width:100%;">
+                        <img src="rebeccaPersona.PNG" alt="Los Angeles" style="width:100%;">
                     </div>
 
                     <div class="item">
-                        <img src="C:\Users\julie\OneDrive\Documents\anotonioPersona.PNG" alt="Los Angeles" style="width:100%;">
+                        <img src="anotonioPersona.PNG" alt="Los Angeles" style="width:100%;">
                     </div>
                 </div>
 
@@ -374,7 +345,10 @@
                 </a>
             </div>
         </div>
+ </div>
 
+
+ 
         <div class="row slideanim">
             <div class="col-sm-4">
                 <span class="glyphicon glyphicon-off logo-small"></span>
@@ -601,7 +575,7 @@
         <a href="#myPage" title="To Top">
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
-        <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+    
     </footer>
 
     <script>
@@ -644,7 +618,25 @@
             });
         })
     </script>
-
+    <div class="container-fluid bg-grey">
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-globe logo slideanim"></span>
+            </div>
+            <div class="col-sm-8">
+                <h2>Our Values</h2><br>
+                <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+                <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
